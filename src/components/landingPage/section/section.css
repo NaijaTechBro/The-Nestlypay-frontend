@@ -1,0 +1,43 @@
+.section-container {
+  display: flex;
+}
+
+.section-container_input {
+  position: absolute;
+  width: 1240px;
+  height: 160px;
+  left: 100px;
+  top: 1631px;
+}
+.section-container_input h1 {
+  width: 1280px;
+  height: 98px;
+  line-height: 50px;
+  top: 1631px;
+
+  color: rgba(0, 0, 0, 0.7);
+
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 30px;
+}
+
+.section-container_input p {
+  width: 324px;
+  height: 50px;
+
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+
+  color: #070707;
+}
+
+.section-container_input img {
+  width: 32px;
+  height: 32px;
+  line-height: 50px;
+}
