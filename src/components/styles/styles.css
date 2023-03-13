@@ -1,0 +1,125 @@
+.link {
+  text-decoration: none;
+}
+
+.loader {
+  width: 18px;
+  height: 18px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  animation: pulse 1s linear infinite;
+}
+.loader:after {
+  content: '';
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: scaleUp 1s linear infinite;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  60%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes pulse {
+  0%,
+  60%,
+  100% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+}
+
+.loader--for-create {
+  width: 18px;
+  height: 18px;
+  top: 85px;
+  border: 5px solid #0c46d3;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  animation: pulseForCreate 1s linear infinite;
+}
+.loader--for-create:after {
+  content: '';
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border: 5px solid #0c46d3;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: scaleUpForCreate 1s linear infinite;
+}
+
+@keyframes scaleUpForCreate {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  60%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes pulseForCreate {
+  0%,
+  60%,
+  100% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+}
+
+.the-xmark {
+  font-size: 24px;
+  position: relative;
+  top: -18px;
+  right: -6px;
+}
+
+.the-barmark {
+  font-size: 24px;
+  position: fixed;
+  top: 46px;
+  left: 24px;
+  z-index: 2;
+}
+
+.the-nav2 {
+  display: block;
+  font-size: 24px;
+  position: relative;
+  top: -72px;
+  right: 24px;
+}
+
+#the-nav2 {
+  display: block;
+}
+
+#second--dashboard-nav {
+  display: none;
+}

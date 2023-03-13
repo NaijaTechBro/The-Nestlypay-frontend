@@ -1,0 +1,424 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .shareinvoice--modal {
+    display: block;
+    width: 100%;
+  }
+
+  .shareinvoice--content {
+    width: fit-content;
+    padding: 30px 24px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+
+  .shareinvoice--t1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .shareinvoice--t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .shareinvoice--modal-form {
+    margin-top: 42px;
+  }
+
+  .shareinvoice--input {
+    width: 52%;
+    padding: 18px;
+    margin-right: 8px;
+    background: #ffffff;
+    border: 1.2px solid #f1f1f1;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .shareinvoice--modal-btn {
+    background-color: #0c46d3;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .shareinvoice--modal-btn:hover {
+    border: 2px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .shareinvoice--modal-btn:active {
+    border: 3px solid #0c46d3;
+  }
+
+  .shareinvoice--t3 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t3b {
+    margin-left: 10px;
+  }
+
+  .shareinvoice--t3b:hover {
+    color: #0c46d3;
+  }
+
+  .shareinvoice--t4 {
+    color: #979797;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t4:hover {
+    color: #000;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .shareinvoice--modal {
+    display: block;
+    width: 100%;
+  }
+
+  .shareinvoice--content {
+    width: fit-content;
+    padding: 30px 24px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+
+  .shareinvoice--t1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .shareinvoice--t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .shareinvoice--modal-form {
+    margin-top: 42px;
+  }
+
+  .shareinvoice--input {
+    width: 250px;
+    padding: 18px;
+    margin-right: 24px;
+    background: #ffffff;
+    border: 1.2px solid #f1f1f1;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .shareinvoice--modal-btn {
+    background-color: #0c46d3;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .shareinvoice--modal-btn:hover {
+    border: 2px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .shareinvoice--modal-btn:active {
+    border: 3px solid #0c46d3;
+  }
+
+  .shareinvoice--t3 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t3b {
+    margin-left: 10px;
+  }
+
+  .shareinvoice--t3b:hover {
+    color: #0c46d3;
+  }
+
+  .shareinvoice--t4 {
+    color: #979797;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t4:hover {
+    color: #000;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .shareinvoice--modal {
+    display: block;
+    width: 100%;
+  }
+
+  .shareinvoice--content {
+    width: fit-content;
+    padding: 30px 24px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+
+  .shareinvoice--t1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .shareinvoice--t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .shareinvoice--modal-form {
+    margin-top: 42px;
+  }
+
+  .shareinvoice--input {
+    width: 250px;
+    padding: 18px;
+    margin-right: 24px;
+    background: #ffffff;
+    border: 1.2px solid #f1f1f1;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .shareinvoice--modal-btn {
+    background-color: #0c46d3;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .shareinvoice--modal-btn:hover {
+    border: 2px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .shareinvoice--modal-btn:active {
+    border: 3px solid #0c46d3;
+  }
+
+  .shareinvoice--t3 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t3b {
+    margin-left: 10px;
+  }
+
+  .shareinvoice--t3b:hover {
+    color: #0c46d3;
+  }
+
+  .shareinvoice--t4 {
+    color: #979797;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t4:hover {
+    color: #000;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .shareinvoice--modal {
+    display: block;
+    width: 100%;
+  }
+
+  .shareinvoice--content {
+    width: fit-content;
+    padding: 30px 24px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+
+  .shareinvoice--t1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .shareinvoice--t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .shareinvoice--modal-form {
+    margin-top: 42px;
+  }
+
+  .shareinvoice--input {
+    width: 250px;
+    padding: 18px;
+    margin-right: 24px;
+    background: #ffffff;
+    border: 1.2px solid #f1f1f1;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .shareinvoice--modal-btn {
+    background-color: #0c46d3;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .shareinvoice--modal-btn:hover {
+    border: 2px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .shareinvoice--modal-btn:active {
+    border: 3px solid #0c46d3;
+  }
+
+  .shareinvoice--t3 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t3b {
+    margin-left: 10px;
+  }
+
+  .shareinvoice--t3b:hover {
+    color: #0c46d3;
+  }
+
+  .shareinvoice--t4 {
+    color: #979797;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t4:hover {
+    color: #000;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .shareinvoice--modal {
+    display: block;
+    width: 100%;
+  }
+
+  .shareinvoice--content {
+    width: fit-content;
+    padding: 30px 24px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+
+  .shareinvoice--t1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .shareinvoice--t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .shareinvoice--modal-form {
+    margin-top: 42px;
+  }
+
+  .shareinvoice--input {
+    width: 250px;
+    padding: 18px;
+    margin-right: 24px;
+    background: #ffffff;
+    border: 1.2px solid #f1f1f1;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .shareinvoice--modal-btn {
+    background-color: #0c46d3;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .shareinvoice--modal-btn:hover {
+    border: 2px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .shareinvoice--modal-btn:active {
+    border: 3px solid #0c46d3;
+  }
+
+  .shareinvoice--t3 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t3b {
+    margin-left: 10px;
+  }
+
+  .shareinvoice--t3b:hover {
+    color: #0c46d3;
+  }
+
+  .shareinvoice--t4 {
+    color: #979797;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 32px;
+  }
+
+  .shareinvoice--t4:hover {
+    color: #000;
+  }
+}

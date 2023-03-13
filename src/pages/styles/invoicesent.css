@@ -1,0 +1,1565 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .invoicehistory--content {
+    margin-left: 10px;
+  }
+
+  .invoicehistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .invoicehistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .invoicehistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoicehistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--table {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+  }
+
+  .invoice_history--table-head {
+    margin-top: 32px;
+    margin-bottom: -38px;
+  }
+
+  .invoice_history--table-tab {
+    margin-bottom: -44px;
+  }
+
+  .invoice_history--th1 {
+    padding-left: 88px;
+  }
+
+  .invoice_history--icons {
+    padding-right: 24px;
+    padding-left: 0px;
+  }
+
+  .invoice_history--icon {
+    color: #0c46d3;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 100%;
+    background: rgba(12, 70, 211, 0.05);
+  }
+
+  .invoice_history--tick {
+    font-size: 18px;
+    padding: 7px 9px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+    margin-right: 12px;
+    margin-left: -12px;
+  }
+
+  .invoice_history--tick:hover {
+    background-color: #388c00;
+    color: #fff;
+  }
+
+  .invoice_history--x {
+    font-size: 18px;
+    padding: 7px 12px;
+    background: rgba(238, 106, 95, 0.2);
+    color: #ee6a5f;
+    border-radius: 100%;
+  }
+
+  .invoice_history--x:hover {
+    background-color: #ee6a5f;
+    color: #fff;
+  }
+
+  .invoice_history--confirm {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--confirm-img {
+    font-size: 52px;
+    padding: 16px 20px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+  }
+
+  .invoice_history--confirm-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--confirm-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--confirm-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn2 {
+    border: none;
+    background: #388c00;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn2:active {
+    border: 2px solid #388c00;
+    background-color: #fff;
+    color: #388c00;
+    border: none;
+  }
+
+  .invoice_history--cancel {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--cancel-img {
+    font-size: 52px;
+    padding: 20px 34px;
+    background-color: #ff330030;
+    color: #ff3300;
+    border-radius: 100%;
+  }
+
+  .invoice_history--cancel-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--cancel-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--cancel-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn2 {
+    border: none;
+    background: #ff3300;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn2:active {
+    border: 2px solid #ff3300;
+    background-color: #fff;
+    color: #ff3300;
+    border: none;
+  }
+
+  .invoice_history_review--1 {
+    transform: scale(0.8);
+    position: relative;
+    top: -80px;
+    /* margin-top: -400px; */
+    /* margin-bottom: -1000px; */
+  }
+
+  .invoice_history_review--btn {
+    position: relative;
+    right: 52px;
+    margin-top: -300px;
+  }
+
+  .invoice_history_review--btn1 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-right: 12px;
+  }
+
+  .invoice_history_review--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoice_history_review--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #fff;
+    background-color: #0c46d3;
+  }
+  .invoice_history_review--btn2:hover {
+    border: 1.5px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--refresh {
+    color: #0c46d3;
+    margin-left: 100px;
+    font-size: 34px;
+    border: none;
+    background: inherit;
+    margin-top: 32px;
+  }
+
+  .invoice_history--refresh:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #confirm {
+    display: block;
+  }
+
+  #cancel {
+    display: block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .invoicehistory--content {
+    margin-left: 10px;
+  }
+
+  .invoicehistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .invoicehistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .invoicehistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoicehistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--table {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+  }
+
+  .invoice_history--table-head {
+    margin-top: 32px;
+    margin-bottom: -38px;
+  }
+
+  .invoice_history--table-tab {
+    margin-bottom: -44px;
+  }
+
+  .invoice_history--th1 {
+    padding-left: 88px;
+  }
+
+  .invoice_history--icons {
+    padding-right: 24px;
+    padding-left: 0px;
+  }
+
+  .invoice_history--icon {
+    color: #0c46d3;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 100%;
+    background: rgba(12, 70, 211, 0.05);
+  }
+
+  .invoice_history--tick {
+    font-size: 18px;
+    padding: 7px 9px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+    margin-right: 12px;
+    margin-left: -12px;
+  }
+
+  .invoice_history--tick:hover {
+    background-color: #388c00;
+    color: #fff;
+  }
+
+  .invoice_history--x {
+    font-size: 18px;
+    padding: 7px 12px;
+    background: rgba(238, 106, 95, 0.2);
+    color: #ee6a5f;
+    border-radius: 100%;
+  }
+
+  .invoice_history--x:hover {
+    background-color: #ee6a5f;
+    color: #fff;
+  }
+
+  .invoice_history--confirm {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--confirm-img {
+    font-size: 52px;
+    padding: 16px 20px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+  }
+
+  .invoice_history--confirm-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--confirm-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--confirm-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn2 {
+    border: none;
+    background: #388c00;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn2:active {
+    border: 2px solid #388c00;
+    background-color: #fff;
+    color: #388c00;
+    border: none;
+  }
+
+  .invoice_history--cancel {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--cancel-img {
+    font-size: 52px;
+    padding: 20px 34px;
+    background-color: #ff330030;
+    color: #ff3300;
+    border-radius: 100%;
+  }
+
+  .invoice_history--cancel-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--cancel-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--cancel-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn2 {
+    border: none;
+    background: #ff3300;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn2:active {
+    border: 2px solid #ff3300;
+    background-color: #fff;
+    color: #ff3300;
+    border: none;
+  }
+
+  .invoice_history_review--1 {
+    transform: scale(0.8);
+    position: relative;
+    top: -80px;
+    /* margin-top: -400px; */
+    /* margin-bottom: -600px; */
+  }
+
+  .invoice_history_review--btn {
+    position: relative;
+    right: 92px;
+    margin-top: -300px;
+  }
+
+  .invoice_history_review--btn1 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-right: 12px;
+  }
+
+  .invoice_history_review--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoice_history_review--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #fff;
+    background-color: #0c46d3;
+  }
+  .invoice_history_review--btn2:hover {
+    border: 1.5px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--refresh {
+    color: #0c46d3;
+    margin-left: 100px;
+    font-size: 34px;
+    border: none;
+    background: inherit;
+    margin-top: 32px;
+  }
+
+  .invoice_history--refresh:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #confirm {
+    display: block;
+  }
+
+  #cancel {
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .invoicehistory--content {
+    margin-left: 10px;
+  }
+
+  .invoicehistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .invoicehistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .invoicehistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoicehistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--table {
+    /* margin-top: 0px;
+        margin-bottom: 50px;
+        min-height: fit-content; */
+    overflow: visible;
+  }
+
+  .invoice_history--table-head {
+    margin-top: 32px;
+    margin-bottom: -38px;
+  }
+
+  .invoice_history--table-tab {
+    margin-bottom: -44px;
+  }
+
+  .invoice_history--th1 {
+    padding-left: 88px;
+  }
+
+  .invoice_history--icons {
+    padding-right: 24px;
+    padding-left: 0px;
+  }
+
+  .invoice_history--icon {
+    color: #0c46d3;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 100%;
+    background: rgba(12, 70, 211, 0.05);
+  }
+
+  .invoice_history--tick {
+    font-size: 18px;
+    padding: 7px 9px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+    margin-right: 12px;
+    margin-left: -12px;
+  }
+
+  .invoice_history--tick:hover {
+    background-color: #388c00;
+    color: #fff;
+  }
+
+  .invoice_history--x {
+    font-size: 18px;
+    padding: 7px 12px;
+    background: rgba(238, 106, 95, 0.2);
+    color: #ee6a5f;
+    border-radius: 100%;
+  }
+
+  .invoice_history--x:hover {
+    background-color: #ee6a5f;
+    color: #fff;
+  }
+
+  .invoice_history--confirm {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--confirm-img {
+    font-size: 52px;
+    padding: 16px 20px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+  }
+
+  .invoice_history--confirm-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--confirm-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--confirm-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn2 {
+    border: none;
+    background: #388c00;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn2:active {
+    border: 2px solid #388c00;
+    background-color: #fff;
+    color: #388c00;
+    border: none;
+  }
+
+  .invoice_history--cancel {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--cancel-img {
+    font-size: 52px;
+    padding: 20px 34px;
+    background-color: #ff330030;
+    color: #ff3300;
+    border-radius: 100%;
+  }
+
+  .invoice_history--cancel-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--cancel-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--cancel-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn2 {
+    border: none;
+    background: #ff3300;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn2:active {
+    border: 2px solid #ff3300;
+    background-color: #fff;
+    color: #ff3300;
+    border: none;
+  }
+
+  .invoice_history_review--1 {
+    transform: scale(0.8);
+    margin-top: 00px;
+    margin-bottom: -100px;
+  }
+
+  .invoice_history_review--btn {
+    position: relative;
+    right: 92px;
+    top: 84px;
+  }
+
+  .invoice_history_review--btn1 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-right: 12px;
+  }
+
+  .invoice_history_review--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoice_history_review--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #fff;
+    background-color: #0c46d3;
+  }
+  .invoice_history_review--btn2:hover {
+    border: 1.5px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--refresh {
+    color: #0c46d3;
+    margin-left: 100px;
+    font-size: 34px;
+    border: none;
+    background: inherit;
+    margin-top: 32px;
+  }
+
+  .invoice_history--refresh:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #confirm {
+    display: block;
+  }
+
+  #cancel {
+    display: block;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .invoicehistory--content {
+    margin-left: 300px;
+  }
+
+  .invoicehistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .invoicehistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .invoicehistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoicehistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--table {
+    /* margin-top: 0px;
+        margin-bottom: 50px; */
+    overflow: visible;
+  }
+
+  .invoice_history--table-head {
+    margin-top: 32px;
+    margin-bottom: -38px;
+  }
+
+  .invoice_history--table-tab {
+    margin-bottom: -44px;
+  }
+
+  .invoice_history--th1 {
+    padding-left: 88px;
+  }
+
+  .invoice_history--icons {
+    padding-right: 24px;
+    padding-left: 0px;
+  }
+
+  .invoice_history--icon {
+    color: #0c46d3;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 100%;
+    background: rgba(12, 70, 211, 0.05);
+  }
+
+  .invoice_history--tick {
+    font-size: 18px;
+    padding: 7px 9px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+    margin-right: 12px;
+    margin-left: -12px;
+  }
+
+  .invoice_history--tick:hover {
+    background-color: #388c00;
+    color: #fff;
+  }
+
+  .invoice_history--x {
+    font-size: 18px;
+    padding: 7px 12px;
+    background: rgba(238, 106, 95, 0.2);
+    color: #ee6a5f;
+    border-radius: 100%;
+  }
+
+  .invoice_history--x:hover {
+    background-color: #ee6a5f;
+    color: #fff;
+  }
+
+  .invoice_history--confirm {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--confirm-img {
+    font-size: 52px;
+    padding: 16px 20px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+  }
+
+  .invoice_history--confirm-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--confirm-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--confirm-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn2 {
+    border: none;
+    background: #388c00;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn2:active {
+    border: 2px solid #388c00;
+    background-color: #fff;
+    color: #388c00;
+    border: none;
+  }
+
+  .invoice_history--cancel {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--cancel-img {
+    font-size: 52px;
+    padding: 20px 34px;
+    background-color: #ff330030;
+    color: #ff3300;
+    border-radius: 100%;
+  }
+
+  .invoice_history--cancel-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--cancel-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--cancel-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn2 {
+    border: none;
+    background: #ff3300;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn2:active {
+    border: 2px solid #ff3300;
+    background-color: #fff;
+    color: #ff3300;
+    border: none;
+  }
+
+  .invoice_history_review--1 {
+    transform: scale(0.8);
+    margin-top: 00px;
+    margin-bottom: -100px;
+  }
+
+  .invoice_history_review--btn {
+    position: relative;
+    right: 92px;
+  }
+
+  .invoice_history_review--btn1 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-right: 12px;
+  }
+
+  .invoice_history_review--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoice_history_review--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #fff;
+    background-color: #0c46d3;
+  }
+  .invoice_history_review--btn2:hover {
+    border: 1.5px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--refresh {
+    color: #0c46d3;
+    margin-left: 100px;
+    font-size: 34px;
+    border: none;
+    background: inherit;
+    margin-top: 32px;
+  }
+
+  .invoice_history--refresh:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #confirm {
+    display: block;
+  }
+
+  #cancel {
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .invoicehistory--content {
+    margin-left: 300px;
+  }
+
+  .invoicehistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .invoicehistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .invoicehistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoicehistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--table {
+    /* margin-top: 0px;
+        margin-bottom: 50px; */
+    overflow: visible;
+  }
+
+  .invoice_history--table-head {
+    margin-top: 32px;
+    margin-bottom: -38px;
+  }
+
+  .invoice_history--table-tab {
+    margin-bottom: -44px;
+  }
+
+  .invoice_history--th1 {
+    padding-left: 88px;
+  }
+
+  .invoice_history--icons {
+    padding-right: 24px;
+    padding-left: 0px;
+  }
+
+  .invoice_history--icon {
+    color: #0c46d3;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 100%;
+    background: rgba(12, 70, 211, 0.05);
+  }
+
+  .invoice_history--tick {
+    font-size: 18px;
+    padding: 7px 9px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+    margin-right: 12px;
+    margin-left: -12px;
+  }
+
+  .invoice_history--tick:hover {
+    background-color: #388c00;
+    color: #fff;
+  }
+
+  .invoice_history--x {
+    font-size: 18px;
+    padding: 7px 12px;
+    background: rgba(238, 106, 95, 0.2);
+    color: #ee6a5f;
+    border-radius: 100%;
+  }
+
+  .invoice_history--x:hover {
+    background-color: #ee6a5f;
+    color: #fff;
+  }
+
+  .invoice_history--confirm {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--confirm-img {
+    font-size: 52px;
+    padding: 16px 20px;
+    background-color: #388c0030;
+    color: #388c00;
+    border-radius: 100%;
+  }
+
+  .invoice_history--confirm-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--confirm-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--confirm-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--confirm-btn2 {
+    border: none;
+    background: #388c00;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--confirm-btn2:active {
+    border: 2px solid #388c00;
+    background-color: #fff;
+    color: #388c00;
+    border: none;
+  }
+
+  .invoice_history--cancel {
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+
+  .invoice_history--cancel-img {
+    font-size: 52px;
+    padding: 20px 34px;
+    background-color: #ff330030;
+    color: #ff3300;
+    border-radius: 100%;
+  }
+
+  .invoice_history--cancel-t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+  }
+
+  .invoice_history--cancel-t2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -12px;
+  }
+
+  .invoice_history--cancel-btn1 {
+    border: 2px solid #979797;
+    background-color: #fff;
+    color: #979797;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn1:hover {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn1:active {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 12px;
+  }
+
+  .invoice_history--cancel-btn2 {
+    border: none;
+    background: #ff3300;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+
+  .invoice_history--cancel-btn2:active {
+    border: 2px solid #ff3300;
+    background-color: #fff;
+    color: #ff3300;
+    border: none;
+  }
+
+  .invoice_history_review--1 {
+    transform: scale(0.6);
+    margin-bottom: -200px;
+    position: relative;
+    top: -120px;
+    left: -30px;
+  }
+
+  .invoice_history_review--btn {
+    position: relative;
+    right: 136px;
+    top: -50px;
+  }
+
+  .invoice_history_review--btn1 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-right: 12px;
+  }
+
+  .invoice_history_review--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .invoice_history_review--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2 {
+    margin-top: 164px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #fff;
+    background-color: #0c46d3;
+  }
+  .invoice_history_review--btn2:hover {
+    border: 1.5px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history_review--btn2:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .invoice_history--refresh {
+    color: #0c46d3;
+    margin-left: 100px;
+    font-size: 34px;
+    border: none;
+    background: inherit;
+    margin-top: 32px;
+  }
+
+  .invoice_history--refresh:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #confirm {
+    display: block;
+  }
+
+  #cancel {
+    display: block;
+  }
+}

@@ -1,0 +1,456 @@
+.phase-section {
+    display: flex;
+}
+
+.phase-section-left-container {
+    position: absolute;
+width: 720px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #0C46D3;
+}
+
+.phase-section-left-container h1 {
+    position: absolute;
+width: 478px;
+height: 110px;
+left: 107px;
+top: 415px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 55px;
+/* or 153% */
+
+
+color: #FFFFFF;
+}
+
+.phase-section-left-container p {
+    position: absolute;
+width: 205px;
+height: 25px;
+left: 251px;
+top: 560px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height, or 179% */
+
+
+color: #FFFFFF;
+}
+
+.phase-section-left-container img {
+    position: absolute;
+width: 130px;
+height: 40px;
+left: 111px;
+top: 550px
+}
+
+.phase-section-right-container {
+width: 720px;
+height: 1024px;
+}
+
+.phase-section-right-container h1{
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 871px;
+    top: 109px;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    /* identical to box height, or 153% */
+    
+    
+    color: #000000;
+}
+
+.phase-section-right-container p {
+    position: absolute;
+    width: 343px;
+    height: 60px;
+    left: 871px;
+    top: 168px;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    
+    
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.phase-section-right-containerbox-input-form_input {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 871px;
+    top: 252px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.phase-section-right-containerbox-input-form_input::placeholder {
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase-section-right-containerbox-input-form_input2 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 871px;
+    top: 331px;
+    
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.phase-section-right-containerbox-input-form_input2::placeholder {
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase-section-right-containerbox-input-form_input3 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 871px;
+    top: 410px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+    
+}
+
+.phase-section-right-containerbox-input-form_input3::placeholder {
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase-section-right-containerbox-input-form_input4 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 871px;
+    top: 489px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.phase-section-right-containerbox-input-form_input4::placeholder{
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase-section-right-containerbox-input-form_input5 {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 871px;
+    top: 568px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.phase-section-right-containerbox-input-form_input5::placeholder {
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase-section-right-containerbox-input-form_input6 {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 1081px;
+    top: 568px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.phase-section-right-containerbox-input-form_input6::placeholder{
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase-section-right-containerbox-input-form_input7 {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 871px;
+    top: 647px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+    
+}
+
+.phase-section-right-containerbox-input-form_input7::placeholder{
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+
+.phase-section-right-containerbox-input-form_input8 {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 1081px;
+    top: 647px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+
+.phase-section-right-containerbox-input-form_input8::placeholder{
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase-section-right-containerbox-input-form_input9 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 871px;
+    top: 726px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+    
+}
+
+.phase-section-right-containerbox-input-form_input9::placeholder{
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.phase2-section-right-containerbox-input-form_but {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 871px;
+    top: 805px;
+
+    background: #0C46D3;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border-color: #0C46D3;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.phase-section-right-containerbox-input h3 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 945px;
+    top: 879px;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    
+    
+    color: #000000;
+}
+
+.phase-section-right-containerbox-input h3 span {
+    color: #0C46D3;
+}
+
+/* 
+.businessAuth-section-right-containerbox-input-form_but {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 868px;
+    top: 572px;
+    background: #0C46D3;
+    border-radius: 8px;
+    border: #0C46D3;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.businessAuth-section-right-container-box h4 {
+    position: absolute;
+    width: 261px;
+    height: 30px;
+    left: 937px;
+    top: 651px;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    
+    
+    color: #000000;
+    
+}
+
+.businessAuth-section-right-container-box span {
+    color: #0C46D3;
+}
+
+.businessAuth-section-right-container-box p {
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    left: 1000px;
+    top: 693px;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-align: right;
+    
+    color: #000000;
+} */

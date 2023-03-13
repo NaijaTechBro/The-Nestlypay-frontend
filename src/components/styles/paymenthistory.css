@@ -1,0 +1,482 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .paymenthistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .paymenthistory--header {
+    margin-bottom: 44px;
+  }
+
+  .paymenthistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 54px;
+  }
+  .paymenthistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .paymenthistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .paymenthistory--content {
+    margin-left: 10px;
+  }
+
+  .paymenthistory--receipt {
+    width: fit-content;
+    background: #ffffff;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  .paymenthistory--receipt--logo {
+    padding: 0px 30px;
+    padding-bottom: 0px;
+  }
+
+  .paymenthistory--receipt--img1 {
+    padding-right: 18px;
+  }
+
+  .paymenthistory--receipt--t1 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    top: -8px;
+  }
+
+  .paymenthistory--receipt--t2 {
+    position: relative;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    top: -38px;
+    left: 37px;
+  }
+
+  .paymenthistory--receipt--t3 {
+    font-weight: 600;
+    margin-right: 184px;
+    margin-bottom: 34px;
+  }
+
+  .paymenthistory--receipt--t4 {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -58px;
+  }
+
+  .paymenthistory--receipt--btn {
+    width: 100%;
+    background: #0c46d3;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    color: #fff;
+  }
+
+  .paymenthistory--receipt--btn:active {
+    background: #fff;
+    border: 2px solid #0c46d3;
+    color: #0c46d3;
+  }
+
+  .paymenthistory--table {
+    overflow: scroll;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .paymenthistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .paymenthistory--header {
+    margin-bottom: 44px;
+  }
+
+  .paymenthistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .paymenthistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .paymenthistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .paymenthistory--content {
+    margin-left: 10px;
+  }
+
+  .paymenthistory--receipt {
+    width: fit-content;
+    background: #ffffff;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  .paymenthistory--receipt--logo {
+    padding: 0px 30px;
+    padding-bottom: 0px;
+  }
+
+  .paymenthistory--receipt--img1 {
+    padding-right: 18px;
+  }
+
+  .paymenthistory--receipt--t1 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    top: -8px;
+  }
+
+  .paymenthistory--receipt--t2 {
+    position: relative;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    top: -38px;
+    left: 37px;
+  }
+
+  .paymenthistory--receipt--t3 {
+    font-weight: 600;
+    margin-right: 184px;
+    margin-bottom: 34px;
+  }
+
+  .paymenthistory--receipt--t4 {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -58px;
+  }
+
+  .paymenthistory--receipt--btn {
+    width: 100%;
+    background: #0c46d3;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    color: #fff;
+  }
+
+  .paymenthistory--receipt--btn:active {
+    background: #fff;
+    border: 2px solid #0c46d3;
+    color: #0c46d3;
+  }
+
+  .paymenthistory--table {
+    overflow: scroll;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .paymenthistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .paymenthistory--header {
+    margin-bottom: 44px;
+  }
+
+  .paymenthistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .paymenthistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .paymenthistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .paymenthistory--content {
+    margin-left: 10px;
+  }
+
+  .paymenthistory--receipt {
+    width: fit-content;
+    background: #ffffff;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  .paymenthistory--receipt--logo {
+    padding: 0px 30px;
+    padding-bottom: 0px;
+  }
+
+  .paymenthistory--receipt--img1 {
+    padding-right: 18px;
+  }
+
+  .paymenthistory--receipt--t1 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    top: -8px;
+  }
+
+  .paymenthistory--receipt--t2 {
+    position: relative;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    top: -38px;
+    left: 37px;
+  }
+
+  .paymenthistory--receipt--t3 {
+    font-weight: 600;
+    margin-right: 184px;
+    margin-bottom: 34px;
+  }
+
+  .paymenthistory--receipt--t4 {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -58px;
+  }
+
+  .paymenthistory--receipt--btn {
+    width: 100%;
+    background: #0c46d3;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    color: #fff;
+  }
+
+  .paymenthistory--receipt--btn:active {
+    background: #fff;
+    border: 2px solid #0c46d3;
+    color: #0c46d3;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .paymenthistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .paymenthistory--header {
+    margin-bottom: 44px;
+  }
+
+  .paymenthistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .paymenthistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .paymenthistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .paymenthistory--content {
+    margin-left: 300px;
+  }
+
+  .paymenthistory--receipt {
+    width: fit-content;
+    background: #ffffff;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  .paymenthistory--receipt--logo {
+    padding: 0px 30px;
+    padding-bottom: 0px;
+  }
+
+  .paymenthistory--receipt--img1 {
+    padding-right: 18px;
+  }
+
+  .paymenthistory--receipt--t1 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    top: -8px;
+  }
+
+  .paymenthistory--receipt--t2 {
+    position: relative;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    top: -38px;
+    left: 37px;
+  }
+
+  .paymenthistory--receipt--t3 {
+    font-weight: 600;
+    margin-right: 184px;
+    margin-bottom: 34px;
+  }
+
+  .paymenthistory--receipt--t4 {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -58px;
+  }
+
+  .paymenthistory--receipt--btn {
+    width: 100%;
+    background: #0c46d3;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    color: #fff;
+  }
+
+  .paymenthistory--receipt--btn:active {
+    background: #fff;
+    border: 2px solid #0c46d3;
+    color: #0c46d3;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .paymenthistory--table-t {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .paymenthistory--header {
+    margin-bottom: 44px;
+  }
+
+  .paymenthistory--btn1 {
+    border: 1.5px solid #0c46d3;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    color: #0c46d3;
+    background-color: #fff;
+    margin-top: -58px;
+    margin-right: 124px;
+  }
+  .paymenthistory--btn1:hover {
+    background-color: #0c46d3;
+    color: #fff;
+  }
+
+  .paymenthistory--btn1:active {
+    border: 3px solid #0c46d3;
+    background-color: #fff;
+    color: #0c46d3;
+  }
+
+  .paymenthistory--content {
+    margin-left: 300px;
+  }
+
+  .paymenthistory--receipt {
+    width: fit-content;
+    background: #ffffff;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 24px;
+  }
+
+  .paymenthistory--receipt--logo {
+    padding: 0px 30px;
+    padding-bottom: 0px;
+  }
+
+  .paymenthistory--receipt--img1 {
+    padding-right: 18px;
+  }
+
+  .paymenthistory--receipt--t1 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    top: -8px;
+  }
+
+  .paymenthistory--receipt--t2 {
+    position: relative;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    top: -38px;
+    left: 37px;
+  }
+
+  .paymenthistory--receipt--t3 {
+    font-weight: 600;
+    margin-right: 184px;
+    margin-bottom: 34px;
+  }
+
+  .paymenthistory--receipt--t4 {
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -58px;
+  }
+
+  .paymenthistory--receipt--btn {
+    width: 100%;
+    background: #0c46d3;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    color: #fff;
+  }
+
+  .paymenthistory--receipt--btn:active {
+    background: #fff;
+    border: 2px solid #0c46d3;
+    color: #0c46d3;
+  }
+}

@@ -1,0 +1,169 @@
+.article-container {
+  display: flex;
+}
+
+.article-container_input {
+  position: absolute;
+  width: 100%;
+  height: 970px;
+  top: 2541px;
+
+  background: #0c46d3;
+}
+
+.article-container_input h1 {
+  position: absolute;
+  width: 613px;
+  height: 120px;
+  left: 93px;
+  top: 77px;
+
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  /* or 120% */
+
+  color: #ffffff;
+}
+
+.article-container_input p {
+  position: absolute;
+  width: 661px;
+  height: 72px;
+  left: 93px;
+  top: 213px;
+
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  color: #ffffff;
+}
+
+.article-container_input button {
+  box-sizing: border-box;
+  background: #0c46d3;
+  color: #ffffff;
+
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 93px;
+  top: 301px;
+  border-color: #ffffff;
+  border-radius: 8px;
+  font-size: normal;
+  font-weight: 500;
+}
+
+.article-container_input-img_first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 998px;
+  height: 665px;
+  left: 390px;
+  top: 351px;
+
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.article-container_input-img_last {
+  position: absolute;
+  width: 333.27px;
+  height: 485px;
+  left: 93px;
+  top: 486px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .article-container {
+    display: flex;
+  }
+  .article-container_input {
+    position: absolute;
+    width: 100%;
+    height: 670px;
+
+    background: #0c46d3;
+  }
+  .article-container_input-img_first {
+    display: none;
+  }
+  .article-container_input-img_last {
+    display: none;
+  }
+  .article-container_input h1 {
+    position: absolute;
+    width: 313px;
+    height: 60px;
+    left: 43px;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 120% */
+
+    color: #ffffff;
+  }
+  .article-container_input p {
+    position: absolute;
+    width: 393px;
+    height: 72px;
+    left: 43px;
+    top: 230px;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 200% */
+
+    color: #ffffff;
+  }
+  .article-container_input button {
+    box-sizing: border-box;
+    background: #0c46d3;
+    color: #ffffff;
+
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 43px;
+    top: 380px;
+    border-color: #ffffff;
+    border-radius: 8px;
+    font-size: normal;
+    font-weight: 500;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

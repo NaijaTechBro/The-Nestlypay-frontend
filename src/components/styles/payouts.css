@@ -1,0 +1,45 @@
+.payoutshistory {
+  margin-left: 300px;
+}
+
+.payoutshistory--table {
+  margin-top: 64px;
+}
+
+.payoutshistory--th1 {
+  padding-left: 110px;
+}
+
+.payoutshistory--icons {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.payoutshistory--icon {
+  color: #0c46d3;
+  font-size: 18px;
+  padding: 14px;
+  border-radius: 100%;
+  background: rgba(12, 70, 211, 0.05);
+}
+
+.payoutshistory--pending {
+  color: #e1981b;
+  background: rgba(225, 152, 27, 0.1);
+  border-radius: 5px;
+  padding: 10px 28px;
+}
+
+.payoutshistory--success {
+  color: #45b845;
+  background: rgba(69, 184, 69, 0.1);
+  border-radius: 5px;
+  padding: 10px 28px;
+}
+
+.payoutshistory--cancelled {
+  color: #ff0000;
+  background: rgba(255, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 20px;
+}

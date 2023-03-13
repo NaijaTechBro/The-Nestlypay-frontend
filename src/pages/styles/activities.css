@@ -1,0 +1,37 @@
+.activities--content {
+    margin-left: 300px;
+}
+
+.activities--item {
+    margin-bottom: 28px;
+}
+
+.activities--img {
+    margin-right: 18px;
+}
+
+.activities--t1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 44px;
+}
+
+.activities--t2 {
+    position: relative;
+    font-size: 18px;
+    top: -8px;
+    font-weight: 600;
+}
+
+.activities--t3 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: -24px;
+    margin-left: 68px;
+}
+
+.activities--t4 {
+    font-size: 16px;
+    margin-top: -48px;
+    padding-right: 80px;
+}

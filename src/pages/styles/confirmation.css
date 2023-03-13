@@ -1,0 +1,121 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .confirmation {
+        padding: 8.5%;
+    }
+    
+    .confirmation-img {
+        background: rgba(39, 174, 96, 0.1);
+        border-radius: 100%;
+        padding: 32px;
+        justify-items: center;
+    }
+    
+    .confirmation-t1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .confirmation-t2 {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .confirmation {
+        padding: 12.5%
+    }
+    
+    .confirmation-img {
+        background: rgba(39, 174, 96, 0.1);
+        border-radius: 100%;
+        padding: 32px;
+        justify-items: center;
+    }
+    
+    .confirmation-t1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .confirmation-t2 {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+ }
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .confirmation {
+        padding: 12.5%
+    }
+    
+    .confirmation-img {
+        background: rgba(39, 174, 96, 0.1);
+        border-radius: 100%;
+        padding: 32px;
+        justify-items: center;
+    }
+    
+    .confirmation-t1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .confirmation-t2 {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+}
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .confirmation {
+        padding: 12.5%
+    }
+    
+    .confirmation-img {
+        background: rgba(39, 174, 96, 0.1);
+        border-radius: 100%;
+        padding: 32px;
+        justify-items: center;
+    }
+    
+    .confirmation-t1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .confirmation-t2 {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+ }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .confirmation {
+        padding: 12.5%
+    }
+    
+    .confirmation-img {
+        background: rgba(39, 174, 96, 0.1);
+        border-radius: 100%;
+        padding: 32px;
+        justify-items: center;
+    }
+    
+    .confirmation-t1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .confirmation-t2 {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,224 @@
+.createauth-section {
+    display: flex;
+}
+
+.createauth-section-left-container {
+    position: absolute;
+width: 720px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #0C46D3;
+}
+
+.createauth-section-left-container h1 {
+    position: absolute;
+    width: 566px;
+    height: 150px;
+    left: 61px;
+    top: 395px;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    /* or 156% */
+    
+    
+    color: #FFFFFF;
+}
+
+.createauth-section-left-container p {
+    position: absolute;
+    width: 419px;
+    height: 60px;
+    left: 204px;
+    top: 569px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height, or 179% */
+
+
+color: #FFFFFF;
+}
+
+.createauth-section-left-container img {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 61px;
+    top: 556px;
+}
+
+.createauth-section-right-container {
+width: 720px;
+height: 1024px;
+}
+
+.createauth-section-right-container h1{
+    position: absolute;
+width: 478px;
+height: 55px;
+left: 863px;
+top: 244px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 55px;
+/* identical to box height, or 153% */
+
+
+color: #000000;
+}
+
+.createauth-section-right-container p {
+    position: absolute;
+width: 463px;
+height: 60px;
+left: 863px;
+top: 303px;
+
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+.createauth-section-right-containerbox-input-form_input {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 863px;
+    top: 351px;
+    
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.createauth-section-right-containerbox-input-form_input::placeholder {
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.createauth-section-right-containerbox-input-form_input2 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 863px;
+    top: 430px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.createauth-section-right-containerbox-input-form_input2::placeholder {
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.createauth-section-right-containerbox-input-form_input3 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 863px;
+    top: 545px;
+
+    background: #FFFFFF;
+    border: 1.5px solid #c4b9b9;
+    border-radius: 8px;
+}
+
+.createauth-section-right-containerbox-input-form_input3::placeholder {
+    position: absolute;
+    left: 5.9%;
+    bottom: 25.64%;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #979797;
+}
+
+.createauth-section-right-containerbox-input-form_input4 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 863px;
+    top: 509px;
+
+    background: #0C46D3;
+    border-radius: 8px;
+    border: #0C46D3;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.createauth-section-right-containerbox-input h4 {
+    position: absolute;
+    width: 244px;
+    height: 30px;
+    left: 925px;
+    top: 588px;
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    
+    color: #000000;
+}
+
+.createauth-section-right-containerbox-input span {
+    color: #0C46D3;
+}
