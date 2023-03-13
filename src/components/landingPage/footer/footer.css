@@ -1,0 +1,133 @@
+.footer-container {
+  display: flex;
+}
+
+.footer-container_input {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  top: 3550px;
+  background: #ffffff;
+}
+.footer-container_input-image {
+  position: absolute;
+  width: 250px;
+  height: 55px;
+  left: 14px;
+}
+.footer-container_input-image1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 180px;
+  top: 20px;
+}
+
+.footer-container_input-image2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 240px;
+  top: 20px;
+}
+
+.footer-container_input-image3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 300px;
+  top: 20px;
+}
+
+.footer-container_input-image4 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 360px;
+  top: 20px;
+}
+.footer-container_input p {
+  position: absolute;
+  width: 332px;
+  height: 30px;
+  top: 85px;
+
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+.footer-container_input h3 {
+  position: absolute;
+  width: 134px;
+  height: 30px;
+  top: 50px;
+
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer-container_input {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 3200px;
+    background: #ffffff;
+  }
+  .footer-container_input-image1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 100px;
+    top: 20px;
+  }
+
+  .footer-container_input-image2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 150px;
+    top: 20px;
+  }
+
+  .footer-container_input-image3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    top: 20px;
+  }
+
+  .footer-container_input-image4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 250px;
+    top: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
